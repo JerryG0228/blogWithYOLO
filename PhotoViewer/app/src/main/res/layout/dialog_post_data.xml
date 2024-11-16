@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Text" />
+
+    <!-- Created Date Picker -->
+    <Button
+        android:id="@+id/btnSelectCreatedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Created Date" />
+
+    <TextView
+        android:id="@+id/tvCreatedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Created Date not selected" />
+
+    <!-- Published Date Picker -->
+    <Button
+        android:id="@+id/btnSelectPublishedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Published Date" />
+
+    <TextView
+        android:id="@+id/tvPublishedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Published Date not selected" />
+
+    <!-- Image Upload Button -->
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image" />
+
+    <TextView
+        android:id="@+id/tvImagePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="No image selected" />
+</LinearLayout>
